@@ -1,0 +1,68 @@
+body {
+    font-family: cursive;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+strong {
+    color: red;
+}
+
+h1 {
+    /* color: red; */
+    text-align: center;
+    margin-bottom: 30px;
+  
+    font-size: 3em;
+    animation: bounce 1s infinite alternate;
+        color: #4f4b4b; /* Set the text color */
+        text-shadow: 2px 2px 2px rgba(16, 16, 16, 0.5); /* Apply 3D text shadow */
+    
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateX(-80px);
+    }
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.item {
+    min-width: 140px;
+    height: 140px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.rounded-img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 80%;
+    margin-bottom: 10px;
+}
+#hr-card{
+  margin-top: 150px !important;
+}
